@@ -279,4 +279,10 @@
     height: auto;
   }
 }
+
+@media (max-width: 575px) {
+  .flying p {
+    font-size: 18px !important;
+  }
+}
 /*# sourceMappingURL=mediaquary.css.map */
