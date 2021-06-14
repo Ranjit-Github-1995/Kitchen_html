@@ -1,0 +1,59 @@
+@mixin nav_hover_Cambria_bold {
+    font-family: 'Cambria';
+    /*font-weight: bold;*/
+}
+@mixin nav {
+    font-family: 'Cambria';
+    font-weight: normal;
+}
+@mixin comm_heding {
+    font-family: 'Ebrima';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@mixin common_center_heding {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include comm_heding;
+    font-size: 40px;
+    position: relative;
+    color:  $center_heding;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+
+    &::after{
+        position: absolute;
+        content: '';
+        bottom: 0;
+        width: 100px;
+        height: 2px;
+        background-color: $common_color;
+    }
+}
+@mixin pra {
+    color: #2a2a2a !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    font-family: 'Poppins', sans-serif !important;
+    line-height: 28px !important;
+}
+@mixin commn_button {
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $common_color;
+    font-size: 20px;
+    font-weight: 500 !important;
+    padding: 13.5px 37px;
+    margin: 0px auto;
+    color: $nav_common;
+    font-family: 'Poppins', sans-serif !important;
+    text-transform: capitalize;
+    outline: none !important;
+}

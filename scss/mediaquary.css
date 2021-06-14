@@ -1,0 +1,282 @@
+@media (max-width: 1024px) {
+  .main_head .navbar-nav .clickD {
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    width: 10px;
+    height: 5px;
+    border-top: 5px solid #fff;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    cursor: pointer;
+    display: block;
+    background-size: 10px;
+    z-index: 9999;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .main_head ul.navbar-nav li .clickD + .sub-menu {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .main_head ul.navbar-nav li .clickD.toggled + .sub-menu {
+    position: absolute;
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media (max-width: 1199px) {
+  .warranty .warr_box .warr_con p {
+    width: 90%;
+  }
+  .our_product .product_sec .image_box .hover_show span {
+    font-size: 24px;
+    padding-bottom: 15px;
+  }
+  .our_product .product_sec .image_box .hover_show .link {
+    width: 65px;
+    height: 65px;
+  }
+  .our_product .product_sec .image_box .hover_show .link a img {
+    width: 30px;
+    height: 30px;
+  }
+  .about_us .about_con {
+    padding-top: 30px;
+  }
+  .about_us .cover .cover_show img {
+    width: 90%;
+    height: 90%;
+  }
+  footer h3 {
+    padding-top: 10px;
+    margin-bottom: 0px;
+  }
+  .navbar-toggler {
+    margin: 0px;
+  }
+  ._header {
+    padding: 10px 0;
+  }
+  .navbar-toggler-icon .bar {
+    background: #fff;
+  }
+  .left_nav {
+    float: none;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .navbar .navbar-nav > li {
+    padding: 10px 6px;
+  }
+  .navbar li a {
+    border: 0px;
+    padding: 10px 5px;
+  }
+}
+
+@media (max-width: 991px) {
+  .panel-split__content {
+    padding: 85px 0;
+    padding-left: 0% !important;
+    width: 48%;
+    float: left;
+  }
+  .panel-split__img {
+    float: right;
+    width: 50%;
+  }
+  .bg-image img, .bg-image video {
+    height: 100% !important;
+  }
+  .section-full {
+    min-height: auto !important;
+  }
+  main#content {
+    min-height: auto;
+  }
+  .spice_edge {
+    padding-top: 50px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  .spice_edge .spice ul {
+    padding: 40px 50px;
+  }
+  .spice_edge .spice ul li .spice_con sup {
+    font-size: 28px !important;
+  }
+  .flying {
+    margin: 50px 0;
+  }
+  .about_us span {
+    font-size: 22px;
+  }
+  .contact_us h3 {
+    font-size: 26px;
+  }
+  footer .copyright p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 10px;
+  }
+  footer .copyright ul.copy {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .we_work, .warranty, .our_product, .about_us, .contact_us {
+    padding-bottom: 50px;
+  }
+  .warranty .warr_box .warr_con p {
+    min-height: 120px;
+  }
+  .warranty .warr_box .warr_con h5 {
+    height: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .p-5 {
+    padding: 0px !important;
+  }
+  .warranty .p-5 {
+    padding: 0px 15px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .panel-split__content {
+    width: 100%;
+    float: none;
+    padding: 35px 0;
+    min-height: 200px;
+  }
+  .panel-split__img {
+    float: none;
+    width: 100%;
+  }
+  .spice_edge {
+    padding-top: 30px;
+  }
+  .spice_edge .spice ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 30px;
+  }
+  .spice_edge .spice ul li {
+    width: 100%;
+    border-right: 0px;
+    padding-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .spice_edge .spice ul li:last-child {
+    width: 100%;
+    border-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .spice_edge .spice ul li p {
+    padding-left: 0%;
+    padding-top: 0%;
+    text-align: center;
+  }
+  .spice_edge .spice ul.reverse {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  .spice_edge .spice ul.reverse li:first-child {
+    width: 100%;
+    border-left: 0px;
+    padding-left: 0%;
+  }
+  .spice_edge .spice ul.reverse li {
+    padding-bottom: 10px;
+  }
+  .spice_edge .spice ul.reverse li p {
+    padding-top: 0%;
+  }
+  .spice_edge .spice ul li .iconn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .spice_edge .spice ul li .spice_con sup {
+    margin-top: 12px;
+    text-align: center;
+  }
+  .spice_edge .spice ul.reverse li:first-child .spice_con span {
+    padding-top: 0px;
+  }
+  .we_work .process .work_pro .work_pro_con {
+    padding: 15px 0;
+  }
+  .pb-8 {
+    padding: 0px 0;
+  }
+  .p0 {
+    padding: 0 15px;
+  }
+  .p-5 {
+    padding: 0 15px 30px 15px !important;
+  }
+  .p-5:last-child {
+    padding-bottom: 0px !important;
+  }
+  .flying {
+    margin: 30px 0;
+  }
+  .we_work, .warranty, .our_product, .about_us, .contact_us {
+    padding-bottom: 30px;
+  }
+  .contact_us .contact_bg .contact_form {
+    width: 100%;
+    padding-top: 325px;
+  }
+  .contact_us .contact_bg img {
+    height: 300px;
+    width: 100%;
+  }
+  footer .copyright {
+    padding: 30px 0 0 0;
+  }
+  .contact_us .contact_bg .contact_form button {
+    padding: 15px 35px;
+  }
+  .warranty .warr_box .warr_con p {
+    min-height: auto;
+  }
+  .warranty .warr_box .warr_con h5 {
+    height: auto;
+  }
+}
+/*# sourceMappingURL=mediaquary.css.map */
